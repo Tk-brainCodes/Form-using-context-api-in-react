@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background: none
+}
+.form-color {
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    display: flex;
+    padding: 1em 2em;
+    flex-direction: column;
+    background: ghostwhite;
+}
+.fa-lock-alt {
+    width: 70px;
+    height: 70px;
+    background: rgb(214, 108, 108);
+    color: white;
+    border-radius: 100%;
+    margin: 20px;
+}
+.sign-in {
+    padding: 1em 2em;
+    display: block;
+    background:rgb(218, 78, 78);
+    margin-bottom: 20px;
+    border: 1px solid rgb(218, 78, 78);
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.select-box {
+    width: 300px;
+    margin-top: 20px;
+}
+#email {
+    width: 255px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    padding: 1em 2em;
+    display: block;
+    margin-top: 20px;
+}
+#password {
+    width: 255px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    padding: 1em 2em;
+    margin-top: 20px;
+}
+.FormControlBox {
+    display: block;
+    padding: 10px;
+}
+#remember {
+    padding: 10px;
+    color: gray;
+}
+#sign-in {
+    display: block;
+    color: rgb(29, 28, 28);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+/*for the page content*/
+.styles {
+    background: black;
+    height: 100vh;
+    width: 100vw;
+}
