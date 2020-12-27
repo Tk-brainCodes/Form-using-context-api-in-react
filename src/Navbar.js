@@ -11,6 +11,7 @@ import styles from './styles/NavbarStyles';
 import {ThemeContext} from './context/themeContext';
 
 class Navbar extends Component{
+    //create a static context type for the theme provider
     static contextType = ThemeContext;
     render(){
         const {isDarkMode, toggleTheme} = this.context;
